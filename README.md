@@ -1,203 +1,38 @@
-# 欢迎使用 `Arya` 在线 Markdown 编辑器
+## 前言
 
-[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn)，是一款基于 `Vue`、`Vditor`，为未来而构建的在线 Markdown 编辑器；轻量且强大：内置粘贴 HTML 自动转换为 Markdown，支持流程图、甘特图、时序图、任务列表，可导出携带样式的图片、PDF、微信公众号特制的 HTML 等等。
+Hello，我是李临波！ 在这里，我将为您分享流行技术实现Django 项目（不限于爬虫、数据清洗分析、数据可视化等）及相关技术的讲解。
 
----
+如需帮助，可加作者微信 **ZHR_Lib_0929** ,拉您入群。可远程协助启动Python项目，寻找Django源码，代码定制等。
 
-## 如何使用
+## 项目说明
 
-**微注**：清空目前这份默认文档，即处于可使用态。[Arya](https://markdown.lovejade.cn/?utm_source=markdown.lovejade.cn) 另一大优点在于：编辑内容只会在您本地进行保存，不会上传您的数据至服务器，**绝不窥测用户个人隐私，可放心使用**；Github 源码：[markdown-online-editor](https://github.com/nicejade/markdown-online-editor)，部分功能仍在开发🚧，敬请期待。
+目前这个项目只是初创阶段，很多细节还没有确定。但可以确定，这个仓库的目是分享优质Python项目帮助小白（包括大学生）入门Python开发，协助Python开发者进阶，也让自己的技术水平能跟的上时代潮流。
 
-默认为[所见即所得](https://hacpai.com/article/1577370404903?utm_source=github.com)模式，可通过 `⌘-⇧-M`（`Ctrl-⇧-M`）进行切换；或通过以下方式：
+仓库中分享的源码我将会以以下方式进行讲解。
 
-- 所见即所得：`⌘-⌥-7`（`Ctrl-alt-7`）；
-- 即时渲染：`⌘-⌥-8`（`Ctrl-alt-8`）；
-- 分屏渲染：`⌘-⌥-9`（`Ctrl-alt-9`）；
+* 将测试使用的Python3.9版本、数据库MySQL8.0版本和编辑器版本进行说明，保证版本一致的情况下正常使用。
+* 分析项目中使用的前后端技术，大家可以根据自己的水平选择相应难度的项目进行研究学习。
+* 保证本项目中分享的项目能正常启动。
+* **因源代码来源于网络，无法避免功能实现不完美或其他bug。我会将读者反馈的问题进行整理说明，避免大家踩坑。获取源码只是起步，能对源码进行修复才是大家需要的能力。**
 
-### PPT 预览
+## 创建原因
 
-如果您用作 `PPT` 预览（入口在`设置`中），需要注意，这里暂还不能支持各种图表的渲染；您可以使用 `---` 来定义水平方向上幻灯片，用 `--` 来定义垂直幻灯片；更多设定可以参见 [RevealJs 文档](https://github.com/hakimel/reveal.js#table-of-contents)。
+大家好，我是一个Python后端开发， 目前还是大四的学生。
 
----
+近日在知乎上发现了很多关于新手项目及工作经验的问题，比如
 
-## 什么是 Markdown
+* [GitHub 上有哪些适合新手跟进的优质项目？](https://www.zhihu.com/question/22744854/answer/763206431)
+* [有哪些适合新手练手的Python项目？](https://zhuanlan.zhihu.com/p/22164270)
+* [如何在没有实际项目经验的情况下找到工作](https://zhuanlan.zhihu.com/p/26593436)
 
-[Markdown](https://nicelinks.site/tags/Markdown/?utm_source=markdown.lovejade.cn) 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号，以最小的输入代价，生成极富表现力的文档：譬如您正在阅读的这份文档。它使用简单的符号标记不同的标题，分割不同的段落，**粗体**、*斜体* 或者[超文本链接](https://vue-cli3.lovejade.cn/explore/)，更棒的是，它还可以：
+这些问题让我想起了前几年，当时也是小白一枚，学的知识零散，不知如何利用，更不知道如何跟实际开发关联起来。所以我也有过以上困惑，开始寻找基础项目，把学到的知识利用起来。
 
----
+我在网上找了很多项目，大部分无法正常启动，版本不对，甚至是缺失sql文件。就算项目正常启动，发现自己的水平达不到，很多写法自己不理解，让我很苦恼。所以，随着工作经验的提升，技术水平的增长，我能更好的分析项目、区分项目难度及是否能正常使用，我决定贡献一下自己的力量，帮助更多的Python使用者。
 
-### 1. 制作待办事宜 `Todo` 列表
+## 声明
 
-- [x] 🎉 通常 `Markdown` 解析器自带的基本功能；
-- [x] 🍀 支持**流程图**、**甘特图**、**时序图**、**任务列表**；
-- [x] 🏁 支持粘贴 HTML 自动转换为 Markdown；
-- [x] 💃🏻 支持插入原生 Emoji、设置常用表情列表；
-- [x] 🚑 支持编辑内容保存**本地存储**，防止意外丢失；
-- [x] 📝 支持**实时预览**，主窗口大小拖拽，字符计数；
-- [x] 🛠 支持常用快捷键(**Tab**)，及代码块添加复制
-- [x] ✨ 支持**导出**携带样式的 PDF、PNG、JPEG 等；
-- [x] ✨ 升级 Vditor，新增对 `echarts` 图表的支持；
-- [x] 👏 支持检查并格式化 Markdown 语法，使其专业；
-- [x] 🦑 支持五线谱、及[部分站点、视频、音频解析](https://github.com/b3log/vditor/issues/117?utm_source=hacpai.com#issuecomment-526986052)；
-- [x] 🌟 增加对**所见即所得**编辑模式的支持(`⌘-⇧-M`)；
+该项目均属于自己（或朋友所写），本人只做说明使用技术、注意点及启动方式，帮助大家进行学习交流，如果有其他需求可以联系本人，未经被人允许，不允许作为商业使用！
 
----
+## 分享内容
 
-### 2. 书写一个质能守恒公式[^LaTeX]
-
-$$
-E=mc^2
-$$
-
----
-
-### 3. 高亮一段代码[^code]
-
-```js
-// 给页面里所有的 DOM 元素添加一个 1px 的描边（outline）;
-[].forEach.call($$("*"),function(a){
-  a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16);
-})
-```
-
-### 4. 高效绘制[流程图](https://github.com/knsv/mermaid#flowchart)
-
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
-
-### 5. 高效绘制[序列图](https://github.com/knsv/mermaid#sequence-diagram)
-
-```mermaid
-sequenceDiagram
-  participant Alice
-  participant Bob
-  Alice->John: Hello John, how are you?
-  loop Healthcheck
-      John->John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts <br/>prevail...
-  John-->Alice: Great!
-  John->Bob: How about you?
-  Bob-->John: Jolly good!
-```
-
-### 6. 高效绘制[甘特图](https://github.com/knsv/mermaid#gantt-diagram)
-
-> **甘特图**内在思想简单。基本是一条线条图，横轴表示时间，纵轴表示活动（项目），线条表示在整个期间上计划和实际的活动完成情况。它直观地表明任务计划在什么时候进行，及实际进展与计划要求的对比。
-
-```mermaid
-gantt
-  title 项目开发流程
-  section 项目确定
-    需求分析       :a1, 2019-06-22, 3d
-    可行性报告     :after a1, 5d
-    概念验证       : 5d
-  section 项目实施
-    概要设计      :2019-07-05  , 5d
-    详细设计      :2019-07-08, 10d
-    编码          :2019-07-15, 10d
-    测试          :2019-07-22, 5d
-  section 发布验收
-    发布: 2d
-    验收: 3d
-```
-
-### 7. 支持图表
-
-```echarts
-{
-  "backgroundColor": "#212121",
-  "title": {
-    "text": "「晚晴幽草轩」访问来源",
-    "subtext": "2019 年 6 月份",
-    "x": "center",
-    "textStyle": {
-      "color": "#f2f2f2"
-    }
-  },
-  "tooltip": {
-    "trigger": "item",
-    "formatter": "{a} <br/>{b} : {c} ({d}%)"
-  },
-  "legend": {
-    "orient": "vertical",
-    "left": "left",
-    "data": [
-      "搜索引擎",
-      "直接访问",
-      "推荐",
-      "其他",
-      "社交平台"
-    ],
-    "textStyle": {
-      "color": "#f2f2f2"
-    }
-  },
-  "series": [
-    {
-      "name": "访问来源",
-      "type": "pie",
-      "radius": "55%",
-      "center": [
-        "50%",
-        "60%"
-      ],
-      "data": [
-        {
-          "value": 10440,
-          "name": "搜索引擎",
-          "itemStyle": {
-            "color": "#ef4136"
-          }
-        },
-        {
-          "value": 4770,
-          "name": "直接访问"
-        },
-        {
-          "value": 2430,
-          "name": "推荐"
-        },
-        {
-          "value": 342,
-          "name": "其他"
-        },
-        {
-          "value": 18,
-          "name": "社交平台"
-        }
-      ],
-      "itemStyle": {
-        "emphasis": {
-          "shadowBlur": 10,
-          "shadowOffsetX": 0,
-          "shadowColor": "rgba(0, 0, 0, 0.5)"
-        }
-      }
-    }
-  ]
-}
-```
-
-> **备注**：上述 echarts 图表📈，其数据，须使用严格的 **JSON** 格式；您可使用 JSON.stringify(data)，将对象传换从而得标准数据，即可正常使用。
-
-### 8. 绘制表格
-
-| 作品名称        | 在线地址   |  上线日期  |
-| :--------  | :-----  | :----:  |
-| 倾城之链 | [https://nicelinks.site](https://nicelinks.site/??utm_source=markdown.lovejade.cn) |2017-09-20|
-| 晚晴幽草轩 | [https://jeffjade.com](https://jeffjade.com/??utm_source=markdown.lovejade.cn) |2014-09-20|
-| 静轩之别苑 | [http://quickapp.lovejade.cn](http://quickapp.lovejade.cn/??utm_source=markdown.lovejade.cn) |2019-01-12|
-
-### 9. 更详细语法说明
-
-想要查看更详细的语法说明，可以参考这份 [Markdown 资源列表](https://github.com/nicejade/nice-front-end-tutorial/blob/master/tutorial/markdown-tutorial.md)，涵盖入门至进阶教程，以及资源、平台等信息，能让您对她有更深的认知。
-
-总而言之，不同于其它*所见即所得*的编辑器：你只需使用键盘专注于书写文本内容，就可以生成印刷级的排版格式，省却在键盘和工具栏之间来回切换，调整内容和格式的麻烦。**Markdown 在流畅的书写和印刷级的阅读体验之间找到了平衡。** 目前它已经成为世界上最大的技术分享网站 `GitHub` 和 技术问答网站 `StackOverFlow` 的御用书写格式，而且越发流行，正在在向各行业渗透。
-
-最新更新于 2019.08.21
+🌱🚀分享基于Django、Scrapy、Pandas、Echarts、机器学习、推荐算法等流行技术实现的 Python项目。
