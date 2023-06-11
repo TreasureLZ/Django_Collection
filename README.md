@@ -40,7 +40,7 @@ Hello，我是李临波！ 在这里，我将为您分享流行技术实现Djang
 ## 项目跳转
 | 源码编号 | 源码名称 | 编辑器 | 主要技术 | 详述 |
 | ----------------- | --------------- | --------- | ------------ | ------------ |
-| DP20230001 | 图书分析大屏展示系统 | Pycharm | Django、爬虫、大屏展示 |[跳转](https://github.com/TreasureLZ/Book_Analysis) |
+| DP20230001 | 图书分析大屏展示系统 | Pycharm | Django 爬虫 大屏展示 数据清洗 |[跳转](https://github.com/TreasureLZ/Book_Analysis) |
 
 最新更新于 2023.06.11
 
