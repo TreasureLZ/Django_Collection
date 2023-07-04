@@ -41,6 +41,7 @@ Hello，我是李临波！ 在这里，我将为您分享流行技术实现Djang
 | 源码编号 | 源码名称 | 编辑器 | 主要技术 | 详述 |
 | ----------------- | --------------- | --------- | ------------ | ------------ |
 | DP20230001 | 图书分析大屏展示系统 | Pycharm | Django 爬虫 大屏展示 数据清洗 |[跳转](https://github.com/TreasureLZ/Book_Analysis) |
+| DP20230002 | 药材数据可视化 | Pycharm | Django 爬虫 Echarts |[跳转](https://github.com/TreasureLZ/Herbs_Analysis) |
 
-最新更新于 2023.06.11
+最新更新于 2023.07.04
 
