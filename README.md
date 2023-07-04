@@ -2,7 +2,7 @@
 
 Hello，我是李临波！ 在这里，我将为您分享流行技术实现Django 项目（不限于爬虫、数据清洗分析、数据可视化等）及相关技术的讲解。
 
-如需帮助，可加作者微信 **ZHR_Lib_0929** ,拉您入群。可远程协助启动Python项目，寻找Django源码，代码定制等。
+如需帮助，可通过后面联系方式添加作者。可远程协助启动Python项目，寻找Django源码，代码定制等。
 
 ## 项目说明
 
@@ -43,5 +43,21 @@ Hello，我是李临波！ 在这里，我将为您分享流行技术实现Djang
 | DP20230001 | 图书分析大屏展示系统 | Pycharm | Django 爬虫 大屏展示 数据清洗 |[跳转](https://github.com/TreasureLZ/Book_Analysis) |
 | DP20230002 | 药材数据可视化 | Pycharm | Django 爬虫 Echarts |[跳转](https://github.com/TreasureLZ/Herbs_Analysis) |
 
-最新更新于 2023.07.04
+## 交流
+WX：ZHR_Lib_0929
+QQ：1664573841
+说明：有什么问题加好友咨询
+开源不易，如果觉得这个项目不错，请帮作者多宣传一下，或者点个star支持一下作者
+## 赞助
+如果这个项目对您有很大帮助，并且您希望支持该项目的开发和维护，请随时扫描一下二维码进行捐赠。非常感谢您的捐款，谢谢！
 
+![image](https://github.com/TreasureLZ/Django_Collection/assets/111034196/7fdba4ab-7fd9-41a8-9d72-065e4d7d0bd2)
+![image](https://github.com/TreasureLZ/Django_Collection/assets/111034196/9db8901b-6090-4386-b85d-df9b8846479d)
+
+## 捐赠人列表
+真心感谢每一位捐赠人对这个项目的支持
+
+| 名称 | 金额 | 时间 |
+| ----------------- | --------------- | --------- | 
+| **荣 | 10 | 2023-05-07 |
+| **韬 | 5 | 2023-06-12 |
