@@ -42,7 +42,7 @@ Hello，我是李临波！ 在这里，我将为您分享流行技术实现Djang
 | ----------------- | --------------- | --------- | ------------ | ------------ |
 | DP20230001 | 图书分析大屏展示系统 | Pycharm | Django 爬虫 大屏展示 数据清洗 |[跳转](https://github.com/TreasureLZ/Book_Analysis) |
 | DP20230002 | 药材数据可视化 | Pycharm | Django 爬虫 Echarts |[跳转](https://github.com/TreasureLZ/Herbs_Analysis) |
-| DP20230002 | 农业生产可视化系统 | Pycharm Navicat | Django Semantic UI Echarts JavaScript |[跳转](https://github.com/TreasureLZ/Agriculture_Analysis) |
+| DP20230003 | 农业生产可视化系统 | Pycharm Navicat | Django Semantic UI Echarts JavaScript |[跳转](https://github.com/TreasureLZ/Agriculture_Analysis) |
 
 ## 交流
 WX：ZHR_Lib_0929  
