@@ -45,7 +45,7 @@ Hello，我是李临波！ 在这里，我将为您分享流行技术实现Djang
 | DP20230003 | 农业生产可视化系统 | Pycharm Navicat | Django Semantic UI Echarts JavaScript |[跳转](https://github.com/TreasureLZ/Agriculture_Analysis) |
 
 ## 交流
-WX：ZHR_Lib_0929  
+WX：Treasures-LZ  
 QQ：1664573841  
 说明：有什么问题加好友咨询  开源不易，如果觉得这个项目不错，请帮作者多宣传一下，或者点个star支持一下作者
 
