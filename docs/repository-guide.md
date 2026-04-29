@@ -24,6 +24,7 @@
 | 仓库 | 建议角色 | 建设重点 |
 | --- | --- | --- |
 | `Django_Collection` | 总入口、项目地图、学习路线、选题池 | README、项目矩阵、在线演示入口、贡献规则 |
+| `Student_Mental_Health_Warning` | 活跃维护项目、综合后台管理系统案例 | README、截图、演示数据、部署说明、API 文档 |
 | `Book_Analysis` | 入门级 Django 数据分析项目 | 运行步骤、数据库导入、截图、常见问题 |
 | `Herbs_Analysis` | 行业数据可视化案例 | 数据字段说明、图表说明、可替换行业建议 |
 | `Agriculture_Analysis` | 综合型毕业设计案例 | 数据来源、农业与气象分析逻辑、答辩扩展建议 |

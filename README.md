@@ -18,6 +18,7 @@
 
 | 编号 | 项目 | 方向 | 技术栈 | 难度 | 状态 | 源码 |
 | --- | --- | --- | --- | --- | --- | --- |
+| DP20260001 | 大学生心理健康评估预警系统 | 心理测评、风险预警、干预随访、咨询预约 | Django, Django Admin, DRF, SQLite, scikit-learn, simpleui | 进阶 | 活跃维护 | [Student_Mental_Health_Warning](https://github.com/TreasureLZ/Student_Mental_Health_Warning) |
 | DP20230001 | 图书分析大屏展示系统 | 图书数据分析、推荐、可视化大屏 | Django, MySQL, 爬虫, 数据清洗, Bootstrap, ECharts | 入门 | LTS 维护 | [Book_Analysis](https://github.com/TreasureLZ/Book_Analysis) |
 | DP20230002 | 药材数据可视化系统 | 药材价格、产地、历史价格、资讯分析 | Django, MySQL, 爬虫, JQuery, ECharts | 入门 | LTS 维护 | [Herbs_Analysis](https://github.com/TreasureLZ/Herbs_Analysis) |
 | DP20230003 | 农业生产可视化系统 | 农业指标、气象数据、地图与图表分析 | Django, MySQL, Semantic UI, ECharts | 进阶 | LTS 维护 | [Agriculture_Analysis](https://github.com/TreasureLZ/Agriculture_Analysis) |
@@ -40,6 +41,7 @@
 | 第一次接触 Django 数据分析项目 | 图书分析大屏展示系统 | 业务容易理解，功能完整，适合从页面、模型、数据处理开始学习 |
 | 想做行业价格或商品行情分析 | 药材数据可视化系统 | 数据主题明确，图表集中，容易替换成其他行业数据 |
 | 想做毕业设计或综合看板 | 农业生产可视化系统 | 同时包含农业数据和气象数据，扩展空间更大 |
+| 想做管理系统、预警闭环或机器学习辅助判定 | 大学生心理健康评估预警系统 | 有多角色权限、测评结果、预警处置、随访闭环和随机森林风险预测 |
 | 想练习大屏和可视化展示 | 图书分析大屏展示系统、农业生产可视化系统 | 包含多类统计图、地图和大屏展示页面 |
 
 ## 推荐学习路线
