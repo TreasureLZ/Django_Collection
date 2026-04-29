@@ -19,6 +19,8 @@
 | 编号 | 项目 | 方向 | 技术栈 | 难度 | 状态 | 源码 |
 | --- | --- | --- | --- | --- | --- | --- |
 | DP20260001 | 大学生心理健康评估预警系统 | 心理测评、风险预警、干预随访、咨询预约 | Django, Django Admin, DRF, SQLite, scikit-learn, simpleui | 进阶 | 活跃维护 | [Student_Mental_Health_Warning](https://github.com/TreasureLZ/Student_Mental_Health_Warning) |
+| DP20260002 | 常温牛奶电商数据挖掘与可视化分析 | 商品分析、品牌价格、评论情感、用户分群 | Django, SQLite, ECharts, scikit-learn, simpleui | 进阶 | 活跃维护 | [Milk_Analysis](https://github.com/TreasureLZ/Milk_Analysis) |
+| DP20260003 | 日用百货电商销售数据分析与预测系统 | 电商销售、趋势分析、品类看板、时间序列预测 | Django, SQLite, pandas, scikit-learn, statsmodels, ECharts, simpleui | 进阶 | 活跃维护 | [Daily_Goods_Sales_Analysis](https://github.com/TreasureLZ/Daily_Goods_Sales_Analysis) |
 | DP20230001 | 图书分析大屏展示系统 | 图书数据分析、推荐、可视化大屏 | Django, MySQL, 爬虫, 数据清洗, Bootstrap, ECharts | 入门 | LTS 维护 | [Book_Analysis](https://github.com/TreasureLZ/Book_Analysis) |
 | DP20230002 | 药材数据可视化系统 | 药材价格、产地、历史价格、资讯分析 | Django, MySQL, 爬虫, JQuery, ECharts | 入门 | LTS 维护 | [Herbs_Analysis](https://github.com/TreasureLZ/Herbs_Analysis) |
 | DP20230003 | 农业生产可视化系统 | 农业指标、气象数据、地图与图表分析 | Django, MySQL, Semantic UI, ECharts | 进阶 | LTS 维护 | [Agriculture_Analysis](https://github.com/TreasureLZ/Agriculture_Analysis) |
@@ -28,11 +30,12 @@
 | 状态 | 含义 |
 | --- | --- |
 | 活跃开发 | 正在新增功能、补充数据或调整架构 |
+| 活跃维护 | 项目仍在维护和补文档，保留小规模功能优化，但不按 LTS 归档 |
 | LTS 维护 | 主要保证项目可读、可运行、可学习，修复文档和明显运行问题，不做大规模重构 |
 | 规划中 | 选题已确定，但代码和文档尚未完成 |
 | 暂停维护 | 暂不更新，仅保留历史参考 |
 
-当前三个老项目都建议按 LTS 方式维护：保留已有 star 和搜索价值，继续补文档、补运行说明、修明显问题，把主要精力放到新入口和后续轻量数据分析项目。
+当前三个老项目都建议按 LTS 方式维护：保留已有 star 和搜索价值，继续补文档、补运行说明、修明显问题。新增项目按活跃维护处理，继续补截图、数据说明和部署文档。
 
 ## 如何选择项目
 
@@ -40,6 +43,8 @@
 | --- | --- | --- |
 | 第一次接触 Django 数据分析项目 | 图书分析大屏展示系统 | 业务容易理解，功能完整，适合从页面、模型、数据处理开始学习 |
 | 想做行业价格或商品行情分析 | 药材数据可视化系统 | 数据主题明确，图表集中，容易替换成其他行业数据 |
+| 想做电商商品、评论和用户画像分析 | 常温牛奶电商数据挖掘与可视化分析 | 包含商品、品牌、价格段、评论情感、用户分群和数据采集演示 |
+| 想做电商销售分析或时间序列预测 | 日用百货电商销售数据分析与预测系统 | 有 SQLite 样例数据、ECharts 看板、多模型预测和预测记录导出 |
 | 想做毕业设计或综合看板 | 农业生产可视化系统 | 同时包含农业数据和气象数据，扩展空间更大 |
 | 想做管理系统、预警闭环或机器学习辅助判定 | 大学生心理健康评估预警系统 | 有多角色权限、测评结果、预警处置、随访闭环和随机森林风险预测 |
 | 想练习大屏和可视化展示 | 图书分析大屏展示系统、农业生产可视化系统 | 包含多类统计图、地图和大屏展示页面 |
@@ -96,7 +101,9 @@ Django_Collection/
 │   └── repository-guide.md
 ├── Agriculture_Analysis/images/
 ├── Book_Analysis/images/
-└── Herbs_Analysis/images/
+├── Daily_Goods_Sales_Analysis/images/
+├── Herbs_Analysis/images/
+└── Milk_Analysis/docs/images/
 ```
 
 `images` 目录用于给各项目 README 引用截图，不建议在总入口 README 中集中展示所有图片。项目越来越多以后，首页应保持轻量，主要承担导航作用。

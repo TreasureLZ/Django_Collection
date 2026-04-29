@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+
+<style>
+  .bg { fill: #f6f8fb; }
+  .panel { fill: #ffffff; stroke: #dce3ee; stroke-width: 1.2; }
+  .soft { fill: #f9fbfd; stroke: #e3e9f2; stroke-width: 1; }
+  .title { font: 700 34px "Microsoft YaHei", Arial, sans-serif; fill: #172033; }
+  .subtitle { font: 400 16px "Microsoft YaHei", Arial, sans-serif; fill: #65758b; }
+  .label { font: 500 15px "Microsoft YaHei", Arial, sans-serif; fill: #65758b; }
+  .value { font: 700 30px "Microsoft YaHei", Arial, sans-serif; fill: #172033; }
+  .small { font: 400 13px "Microsoft YaHei", Arial, sans-serif; fill: #65758b; }
+  .axis { stroke: #c9d3e3; stroke-width: 1; }
+  .grid { stroke: #edf1f7; stroke-width: 1; }
+</style>
+
+<rect width="1280" height="720" class="bg" />
+<text x="48" y="62" class="title" text-anchor="start">后台管理</text>
+<text x="48" y="92" class="subtitle" text-anchor="start">django-simpleui 后台与维护模块概览</text>
+<rect x="48" y="124" width="260" height="122" rx="12" class="panel" /><circle cx="76" cy="154" r="8" fill="#0ea5e9" /><text x="96" y="160" class="label" text-anchor="start">商品信息</text><text x="72" y="212" class="value" fill="#0ea5e9">72</text><rect x="332" y="124" width="260" height="122" rx="12" class="panel" /><circle cx="360" cy="154" r="8" fill="#16a34a" /><text x="380" y="160" class="label" text-anchor="start">销售记录</text><text x="356" y="212" class="value" fill="#16a34a">11,089</text><rect x="616" y="124" width="260" height="122" rx="12" class="panel" /><circle cx="644" cy="154" r="8" fill="#7c3aed" /><text x="664" y="160" class="label" text-anchor="start">预测运行</text><text x="640" y="212" class="value" fill="#7c3aed">3</text><rect x="900" y="124" width="332" height="122" rx="12" class="panel" /><circle cx="928" cy="154" r="8" fill="#f97316" /><text x="948" y="160" class="label" text-anchor="start">数据覆盖</text><text x="924" y="212" class="value" fill="#f97316">2025-09-21 ~ 2026-04-16</text><rect x="48" y="286" width="1184" height="350" rx="12" class="panel" /><text x="76" y="326" class="label" text-anchor="start">后台模块</text><text x="96" y="382" class="subtitle" text-anchor="start">数据管理：商品信息、订单信息、销售记录</text><text x="96" y="438" class="subtitle" text-anchor="start">数据分析：聚合统计接口与可视化页面</text><text x="96" y="494" class="subtitle" text-anchor="start">销售预测：多算法预测实验与记录保存</text><text x="96" y="550" class="subtitle" text-anchor="start">可视化看板：趋势、占比、排行、报表与导出</text><text x="96" y="606" class="subtitle" text-anchor="start">帮助说明：适合课程设计、毕业设计和二次开发维护</text>
+</svg>

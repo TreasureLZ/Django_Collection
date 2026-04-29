@@ -4,9 +4,12 @@
 
 ## 当前定位
 
-当前与这个入口相关的核心公开仓库有 4 个：
+当前与这个入口相关的核心公开仓库有 7 个：
 
 - `Django_Collection`：总入口与截图索引
+- `Student_Mental_Health_Warning`：大学生心理健康评估预警系统
+- `Milk_Analysis`：常温牛奶电商数据挖掘与可视化分析
+- `Daily_Goods_Sales_Analysis`：日用百货电商销售数据分析与预测系统
 - `Book_Analysis`：图书分析大屏展示系统
 - `Herbs_Analysis`：药材数据可视化系统
 - `Agriculture_Analysis`：农业生产可视化系统
@@ -25,6 +28,8 @@
 | --- | --- | --- |
 | `Django_Collection` | 总入口、项目地图、学习路线、选题池 | README、项目矩阵、在线演示入口、贡献规则 |
 | `Student_Mental_Health_Warning` | 活跃维护项目、综合后台管理系统案例 | README、截图、演示数据、部署说明、API 文档 |
+| `Milk_Analysis` | 活跃维护项目、电商商品与用户画像分析案例 | README、截图、采集演示、分析维度说明 |
+| `Daily_Goods_Sales_Analysis` | 活跃维护项目、电商销售分析与预测案例 | README、截图、SQLite 样例数据、预测实验说明 |
 | `Book_Analysis` | 入门级 Django 数据分析项目 | 运行步骤、数据库导入、截图、常见问题 |
 | `Herbs_Analysis` | 行业数据可视化案例 | 数据字段说明、图表说明、可替换行业建议 |
 | `Agriculture_Analysis` | 综合型毕业设计案例 | 数据来源、农业与气象分析逻辑、答辩扩展建议 |

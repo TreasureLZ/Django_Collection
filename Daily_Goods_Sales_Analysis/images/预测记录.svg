@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+
+<style>
+  .bg { fill: #f6f8fb; }
+  .panel { fill: #ffffff; stroke: #dce3ee; stroke-width: 1.2; }
+  .soft { fill: #f9fbfd; stroke: #e3e9f2; stroke-width: 1; }
+  .title { font: 700 34px "Microsoft YaHei", Arial, sans-serif; fill: #172033; }
+  .subtitle { font: 400 16px "Microsoft YaHei", Arial, sans-serif; fill: #65758b; }
+  .label { font: 500 15px "Microsoft YaHei", Arial, sans-serif; fill: #65758b; }
+  .value { font: 700 30px "Microsoft YaHei", Arial, sans-serif; fill: #172033; }
+  .small { font: 400 13px "Microsoft YaHei", Arial, sans-serif; fill: #65758b; }
+  .axis { stroke: #c9d3e3; stroke-width: 1; }
+  .grid { stroke: #edf1f7; stroke-width: 1; }
+</style>
+
+<rect width="1280" height="720" class="bg" />
+<text x="48" y="62" class="title" text-anchor="start">预测记录</text>
+<text x="48" y="92" class="subtitle" text-anchor="start">维护历史实验结果，方便回看参数和导出报告</text>
+<rect x="48" y="124" width="260" height="122" rx="12" class="panel" /><circle cx="76" cy="154" r="8" fill="#0ea5e9" /><text x="96" y="160" class="label" text-anchor="start">预测记录总数</text><text x="72" y="212" class="value" fill="#0ea5e9">3</text><rect x="332" y="124" width="260" height="122" rx="12" class="panel" /><circle cx="360" cy="154" r="8" fill="#16a34a" /><text x="380" y="160" class="label" text-anchor="start">数据终点</text><text x="356" y="212" class="value" fill="#16a34a">2026-04-16</text><rect x="616" y="124" width="260" height="122" rx="12" class="panel" /><circle cx="644" cy="154" r="8" fill="#7c3aed" /><text x="664" y="160" class="label" text-anchor="start">商品数量</text><text x="640" y="212" class="value" fill="#7c3aed">72</text><rect x="900" y="124" width="332" height="122" rx="12" class="panel" /><circle cx="928" cy="154" r="8" fill="#f97316" /><text x="948" y="160" class="label" text-anchor="start">销售记录</text><text x="924" y="212" class="value" fill="#f97316">11,089</text><rect x="48" y="286" width="1184" height="350" rx="12" class="panel" /><text x="76" y="326" class="label" text-anchor="start">模型运行记录</text><rect x="76" y="350" width="420" height="28" rx="14" fill="#0ea5e9" opacity="0.18" /><text x="96" y="370" class="small" text-anchor="start">lstm</text><text x="1130" y="370" class="small" text-anchor="end">2 次</text><rect x="76" y="398" width="300" height="28" rx="14" fill="#0ea5e9" opacity="0.18" /><text x="96" y="418" class="small" text-anchor="start">random_forest</text><text x="1130" y="418" class="small" text-anchor="end">1 次</text><text x="76" y="604" class="subtitle" text-anchor="start">记录页支持筛选、详情查看、JSON/CSV 导出和批量清理。</text>
+</svg>
