@@ -4,12 +4,15 @@
 
 ## 当前定位
 
-当前与这个入口相关的核心公开仓库有 7 个：
+当前与这个入口相关的核心公开仓库有 10 个：
 
 - `Django_Collection`：总入口与截图索引
 - `Student_Mental_Health_Warning`：大学生心理健康评估预警系统
 - `Milk_Analysis`：常温牛奶电商数据挖掘与可视化分析
 - `Daily_Goods_Sales_Analysis`：日用百货电商销售数据分析与预测系统
+- `University_Distribution_Map`：全国高校分布与办学层次地图
+- `ChinaMacroPanel`：中国省级宏观经济面板分析系统
+- `Social_Ageing_Marriage_Analysis`：人口老龄化与婚姻登记趋势分析
 - `Book_Analysis`：图书分析大屏展示系统
 - `Herbs_Analysis`：药材数据可视化系统
 - `Agriculture_Analysis`：农业生产可视化系统
@@ -30,6 +33,9 @@
 | `Student_Mental_Health_Warning` | 活跃维护项目、综合后台管理系统案例 | README、截图、演示数据、部署说明、API 文档 |
 | `Milk_Analysis` | 活跃维护项目、电商商品与用户画像分析案例 | README、截图、采集演示、分析维度说明 |
 | `Daily_Goods_Sales_Analysis` | 活跃维护项目、电商销售分析与预测案例 | README、截图、SQLite 样例数据、预测实验说明 |
+| `University_Distribution_Map` | 活跃维护项目、公开教育数据地图案例 | 教育部名单清洗、地图截图、学校检索说明 |
+| `ChinaMacroPanel` | 活跃维护项目、省级公开统计面板案例 | 国家数据导入、Streamlit 看板、指标说明 |
+| `Social_Ageing_Marriage_Analysis` | 活跃维护项目、社会民生专题分析案例 | 民政统计指标、专题看板、自动报告和截图 |
 | `Book_Analysis` | 入门级 Django 数据分析项目 | 运行步骤、数据库导入、截图、常见问题 |
 | `Herbs_Analysis` | 行业数据可视化案例 | 数据字段说明、图表说明、可替换行业建议 |
 | `Agriculture_Analysis` | 综合型毕业设计案例 | 数据来源、农业与气象分析逻辑、答辩扩展建议 |
@@ -89,7 +95,7 @@
 | --- | --- | --- | --- |
 | P1 | 中国省级宏观经济面板分析 | pandas, Jupyter, Streamlit, Plotly | 入门、课程设计、毕业设计 |
 | P1 | 全国高校分布与办学层次地图 | pandas, 地图可视化, Streamlit | 入门、展示效果强 |
-| P1 | 人口老龄化与婚姻登记趋势分析 | pandas, 折线图, 堆叠柱状图 | 解释性强 |
+| P1 | 人口老龄化与婚姻登记趋势分析 | pandas, Streamlit, Plotly | 已完成，解释性强 |
 | P1 | 5A 景区资源分布可视化 | pandas, 地图, 排名图 | 数据直观 |
 | P1 | 快递行业运行分析看板 | pandas, Streamlit, ECharts/Plotly | 商业分析感强 |
 | P2 | 城市空气质量时空分析 | pandas, 地图, 热力图 | 扩展空间大 |

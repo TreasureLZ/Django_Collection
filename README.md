@@ -23,6 +23,7 @@
 | DP20260003 | 日用百货电商销售数据分析与预测系统 | 电商销售、趋势分析、品类看板、时间序列预测 | Django, SQLite, pandas, scikit-learn, statsmodels, ECharts, simpleui | 进阶 | 活跃维护 | [Daily_Goods_Sales_Analysis](https://github.com/TreasureLZ/Daily_Goods_Sales_Analysis) |
 | DP20260004 | 全国高校分布与办学层次地图 | 高校分布、办学层次、省份地图、学校检索 | Flask, pandas, pyecharts, ECharts, Jinja2 | 入门 | 活跃维护 | [University_Distribution_Map](https://github.com/TreasureLZ/University_Distribution_Map) |
 | DP20260005 | 中国省级宏观经济面板分析系统 | 宏观经济、区域对比、指标面板、相关聚类 | Python, pandas, Streamlit, Plotly, Flask | 入门 | 活跃维护 | [ChinaMacroPanel](https://github.com/TreasureLZ/ChinaMacroPanel) |
+| DP20260006 | 人口老龄化与婚姻登记趋势分析 | 社会民生、人口老龄化、婚姻登记、养老资源 | Python, pandas, Streamlit, Plotly | 入门 | 活跃维护 | [Social_Ageing_Marriage_Analysis](https://github.com/TreasureLZ/Social_Ageing_Marriage_Analysis) |
 | DP20230001 | 图书分析大屏展示系统 | 图书数据分析、推荐、可视化大屏 | Django, MySQL, 爬虫, 数据清洗, Bootstrap, ECharts | 入门 | LTS 维护 | [Book_Analysis](https://github.com/TreasureLZ/Book_Analysis) |
 | DP20230002 | 药材数据可视化系统 | 药材价格、产地、历史价格、资讯分析 | Django, MySQL, 爬虫, JQuery, ECharts | 入门 | LTS 维护 | [Herbs_Analysis](https://github.com/TreasureLZ/Herbs_Analysis) |
 | DP20230003 | 农业生产可视化系统 | 农业指标、气象数据、地图与图表分析 | Django, MySQL, Semantic UI, ECharts | 进阶 | LTS 维护 | [Agriculture_Analysis](https://github.com/TreasureLZ/Agriculture_Analysis) |
@@ -49,6 +50,7 @@
 | 想做电商销售分析或时间序列预测 | 日用百货电商销售数据分析与预测系统 | 有 SQLite 样例数据、ECharts 看板、多模型预测和预测记录导出 |
 | 想做公开教育数据地图展示 | 全国高校分布与办学层次地图 | 使用教育部官方名单，包含省份地图、办学层次统计、城市 Top 和学校检索 |
 | 想做宏观经济、公开统计数据或省级面板分析 | 中国省级宏观经济面板分析系统 | 使用 pandas 清洗面板数据，Streamlit 展示趋势、排名、结构对比、相关矩阵和聚类分析 |
+| 想做社会民生、人口结构或婚姻登记专题 | 人口老龄化与婚姻登记趋势分析 | 把老龄化、结婚登记、离婚登记、养老机构与床位放在同一专题中，适合课程报告和毕业设计 |
 | 想做毕业设计或综合看板 | 农业生产可视化系统 | 同时包含农业数据和气象数据，扩展空间更大 |
 | 想做管理系统、预警闭环或机器学习辅助判定 | 大学生心理健康评估预警系统 | 有多角色权限、测评结果、预警处置、随访闭环和随机森林风险预测 |
 | 想练习大屏和可视化展示 | 图书分析大屏展示系统、农业生产可视化系统、中国省级宏观经济面板分析系统 | 包含多类统计图、地图、排名图和交互式看板页面 |
@@ -87,7 +89,7 @@
 | --- | --- | --- | --- |
 | P1 | 中国省级宏观经济面板分析 | pandas, Streamlit, Plotly, Flask | 已完成，入门、课程设计、毕业设计 |
 | P1 | 全国高校分布与办学层次地图 | Flask, pandas, pyecharts, ECharts | 已完成，入门、展示效果强 |
-| P1 | 人口老龄化与婚姻登记趋势分析 | pandas, 折线图, 堆叠柱状图 | 解释性强 |
+| P1 | 人口老龄化与婚姻登记趋势分析 | pandas, Streamlit, Plotly | 已完成，解释性强 |
 | P1 | 5A 景区资源分布可视化 | pandas, 地图, 排名图 | 数据直观 |
 | P1 | 快递行业运行分析看板 | pandas, Streamlit, ECharts/Plotly | 商业分析感强 |
 | P2 | 城市空气质量时空分析 | pandas, 地图, 热力图 | 扩展空间大 |
@@ -144,4 +146,4 @@ Django_Collection/
 
 ## 最后维护时间
 
-2026.04.30
+2026.06.02
